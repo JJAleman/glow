@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import Modal from '../utils/Modal';
+import { ReactComponent as Logo } from '../images/glow/default.svg';
 
 function HeroHome() {
 
@@ -15,7 +16,8 @@ function HeroHome() {
 
             {/* Content */}
             <div className="md:col-span-7 lg:col-span-7 mb-8 md:mb-0 text-center md:text-left">
-              <h1 className="h1 lg:text-6xl mb-4 font-red-hat-display font-extrabold" data-aos="fade-down">Your website, reimagined</h1>
+              <Logo/>
+              <h1 className="h1 lg:text-6xl mb-4 font-red-hat-display font-extrabold" data-aos="fade-down">FFXIV Free Company</h1>
               <p className="text-xl text-gray-600 dark:text-gray-400" data-aos="fade-down" data-aos-delay="150">Our landing page template works on all devices, so you only have to set it up once, and get beautiful results forever.</p>
               {/* CTA form */}
               <form className="mt-8" data-aos="fade-down" data-aos-delay="300">
@@ -67,13 +69,13 @@ function HeroHome() {
                   </defs>
                 </svg>
                 {/* Image inside mockup size: 290x624px (or 580x1248px for Retina devices) */}
-                <img className="absolute" src={require('../images/mockup-image-01.jpg')} width="290" height="624" style={{ maxWidth: '84.33%' }} alt="Features illustration" />
+                {/* <img className="absolute" src={require('../images/mockup-image-01.jpg')} width="290" height="624" style={{ maxWidth: '84.33%' }} alt="Features illustration" /> */}
                 {/* iPhone mockup */}
-                <img className="relative max-w-full mx-auto md:mr-0 md:max-w-none h-auto pointer-events-none" src={require('../images/iphone-mockup.png')} width="344" height="674" alt="iPhone mockup" aria-hidden="true" />
+                {/* <img className="relative max-w-full mx-auto md:mr-0 md:max-w-none h-auto pointer-events-none" src={require('../images/iphone-mockup.png')} width="344" height="674" alt="iPhone mockup" aria-hidden="true" /> */}
                 {/* Play button */}
-                <a className="absolute group" href="#0" onClick={(e) => { e.preventDefault(); setVideoModalOpen(true); }} aria-controls="modal">
+                {/* <a className="absolute group" href="#0" onClick={(e) => { e.preventDefault(); setVideoModalOpen(true); }} aria-controls="modal">
                   <img src={require('../images/play-button.svg')} width="96" height="96" alt="Play" />
-                </a>
+                </a> */}
               </div>
 
               {/* Modal */}
