@@ -83,19 +83,26 @@ function Header() {
                 <Link to="/about" className="text-gray-600 hover:text-gray-900 dark:text-gray-300 dark:hover:text-gray-100 px-5 py-2 flex items-center transition duration-150 ease-in-out">About</Link>
               </li>
               <li>
-                <Link to="/blog" className="text-gray-600 hover:text-gray-900 dark:text-gray-300 dark:hover:text-gray-100 px-5 py-2 flex items-center transition duration-150 ease-in-out">Blog</Link>
+                <Link to="/blog" className="text-gray-600 hover:text-gray-900 dark:text-gray-300 dark:hover:text-gray-100 px-5 py-2 flex items-center transition duration-150 ease-in-out">Events</Link>
               </li>
               <li>
-                <Link to="/testimonials" className="text-gray-600 hover:text-gray-900 dark:text-gray-300 dark:hover:text-gray-100 px-5 py-2 flex items-center transition duration-150 ease-in-out">Testimonials</Link>
+                <Link to="/testimonials" className="text-gray-600 hover:text-gray-900 dark:text-gray-300 dark:hover:text-gray-100 px-5 py-2 flex items-center transition duration-150 ease-in-out">Members</Link>
               </li>
               {/* 1st level: hover */}
-              <Dropdown title="Resources">
+              <Dropdown title="Final Fantasy XIV">
                 {/* 2nd level: hover */}
                 <li>
-                  <Link to="/help" className="text-sm text-gray-600 dark:text-gray-400 hover:text-teal-500 dark:hover:text-teal-500 flex py-2 px-4 leading-tight">Help center</Link>
+                  <a href="https://eu.finalfantasyxiv.com/" target="_blank"
+                  rel="noreferrer noopener" className="text-sm text-gray-600 dark:text-gray-400 hover:text-teal-500 dark:hover:text-teal-500 flex py-2 px-4 leading-tight">FFXIV Official Site</a>
                 </li>
                 <li>
-                  <Link to="/404" className="text-sm text-gray-600 dark:text-gray-400 hover:text-teal-500 dark:hover:text-teal-500 flex py-2 px-4 leading-tight">404</Link>
+                <a href="https://freetrial.finalfantasyxiv.com/na/" target="_blank" rel="noreferrer noopener" className="text-sm text-gray-600 dark:text-gray-400 hover:text-teal-500 dark:hover:text-teal-500 flex py-2 px-4 leading-tight">FFXIV Free Trial</a>
+                </li>
+                <li>
+                <a href="https://eu.finalfantasyxiv.com/lodestone/" target="_blank" rel="noreferrer noopener" className="text-sm text-gray-600 dark:text-gray-400 hover:text-teal-500 dark:hover:text-teal-500 flex py-2 px-4 leading-tight">FFXIV Loadstone</a>
+                </li>
+                <li>
+                <a href="https://store.finalfantasyxiv.com/ffxivstore/en-us/" target="_blank" rel="noreferrer noopener" className="text-sm text-gray-600 dark:text-gray-400 hover:text-teal-500 dark:hover:text-teal-500 flex py-2 px-4 leading-tight">FFXIV Mog Station</a>
                 </li>
               </Dropdown>
             </ul>
@@ -120,7 +127,7 @@ function Header() {
             {/* Desktop CTA on the right */}
             <ul className="flex justify-end flex-wrap items-center">
               <li>
-                <Link to="/contact" className="btn-sm text-white bg-teal-500 hover:bg-teal-400 ml-6">Request code</Link>
+                <Link to="/contact" className="btn-sm text-white bg-teal-500 hover:bg-teal-400 ml-6">Join Us!</Link>
               </li>
             </ul>
 
