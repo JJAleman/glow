@@ -13,7 +13,6 @@ function HeroHome() {
 
           {/* Hero content */}
           <div className="md:grid md:grid-cols-12 md:gap-12 lg:gap-20 items-center">
-
             {/* Content */}
             <div className="md:col-span-7 lg:col-span-7 mb-8 md:mb-0 text-center md:text-left">
               <Logo/>

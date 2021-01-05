@@ -95,6 +95,49 @@ function Header() {
                   Members
                 </Link>
               </li>
+              <Dropdown title="Resources">
+                {/* 2nd level: hover */}
+                <li>
+                  <a
+                    href="https://www.garlandtools.org/"
+                    target="_blank"
+                    rel="noreferrer noopener"
+                    className="text-sm text-gray-600 dark:text-gray-400 hover:text-teal-500 dark:hover:text-teal-500 flex py-2 px-4 leading-tight"
+                  >
+                    Garland Tools
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="https://www.ffxivclock.com/#/"
+                    target="_blank"
+                    rel="noreferrer noopener"
+                    className="text-sm text-gray-600 dark:text-gray-400 hover:text-teal-500 dark:hover:text-teal-500 flex py-2 px-4 leading-tight"
+                  >
+                    FFXIV Clock
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="http://heavenswhere.com/"
+                    target="_blank"
+                    rel="noreferrer noopener"
+                    className="text-sm text-gray-600 dark:text-gray-400 hover:text-teal-500 dark:hover:text-teal-500 flex py-2 px-4 leading-tight"
+                  >
+                    Sightseeing Logs Guide
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="https://arrtripletriad.com/"
+                    target="_blank"
+                    rel="noreferrer noopener"
+                    className="text-sm text-gray-600 dark:text-gray-400 hover:text-teal-500 dark:hover:text-teal-500 flex py-2 px-4 leading-tight"
+                  >
+                    Triple Triad Guide
+                  </a>
+                </li>
+              </Dropdown>
               {/* 1st level: hover */}
               <Dropdown title="Final Fantasy XIV">
                 {/* 2nd level: hover */}
