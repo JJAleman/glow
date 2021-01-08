@@ -366,7 +366,7 @@ function Header() {
                         to="/blog"
                         className="flex text-gray-600 hover:text-gray-900 dark:text-gray-300 dark:hover:text-gray-100 py-2"
                       >
-                        Blog
+                        Events
                       </Link>
                     </li>
                     <li>
@@ -374,7 +374,7 @@ function Header() {
                         to="/testimonials"
                         className="flex text-gray-600 hover:text-gray-900 dark:text-gray-300 dark:hover:text-gray-100 py-2"
                       >
-                        Testimonials
+                        Members
                       </Link>
                     </li>
                     <li className="py-2 my-2 border-t border-b border-gray-200 dark:border-gray-800">
